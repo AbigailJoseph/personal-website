@@ -1,0 +1,15 @@
+#projects{
+    /* border: rgb(56, 61, 159) 0.1rem solid; */
+    position: relative;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 4em;
+    /* border: rgb(56, 61, 159) 0.1rem solid; */
+}
+.section-text-p1{
+    text-align: center;
+}
