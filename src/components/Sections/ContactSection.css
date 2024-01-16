@@ -5,7 +5,7 @@
     height: 70vh;
   }
   
-  .contact-info-upper-container {
+  .contact-info-container {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
@@ -16,7 +16,7 @@
     padding: 0.5rem;
   }
   
-  .contact-info-container {
+  .contact-info-container__inner-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
     text-decoration: none;
   }
   
-  .contact-info-container p {
+  .contact-info-container__inner-container p {
     font-size: larger;  
   }
   

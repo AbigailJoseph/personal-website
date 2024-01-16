@@ -9,16 +9,16 @@ function AboutSection() {
   return (
     <section id="about">
       {/* <div className='container'> */}
-      <p className="section-text-p1">Get To Know More</p>
-      <h1 className="title">About Me</h1>
-    <div className='outer-section-container'>
+      <p className="section__text">Get To Know More</p>
+      <h1 className="section__title">About Me</h1>
+    <div className='outer-container'>
         
-    <div className="section-container">
-        <div className="pic-container">
+    <div className="outer-container__inner-container">
+        <div className="outer-container__pic-container">
           <img src={pic1} className="about-pic" />
         </div>
         <div className="pic-container">
-          <img src={pic2} className="about-pic" />
+          <img src={pic2} className="pic-container__about-pic" />
         </div>
         <div className="pic-container">
           <img src={pic3} className="about-pic" />

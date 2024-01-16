@@ -7,8 +7,8 @@ import './ProjectsSection.css'
 function ProjectsSection() {
   return (
     <section id='projects'>
-        <p class="section-text-p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        <p class="projects__p1">Browse My Recent</p>
+        <h1 class="projects__title">Projects</h1>
         <div className='projects-container'>
         <CardItem
             src={infostream}
