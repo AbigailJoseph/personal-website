@@ -3,6 +3,7 @@ import CardItem from '../CardItem'
 import cogo from '../images/cogo.png'
 import infostream from '../images/infostream.png'
 import './ProjectsSection.css'
+import '../mediaqueries.css' 
 
 function ProjectsSection() {
   return (
@@ -22,7 +23,7 @@ function ProjectsSection() {
         <CardItem
             src={cogo}
             title='Cogo'
-            link1='https://github.com/AbigailJoseph/CoGo'
+            link1='https://github.com/AbigailJoseph/cogo-public'
             link2='https://apps.apple.com/us/app/cogo-group-habit-tracker/id1631623887'
             btnLabel1='GitHub'
             btnLabel2='Demo'

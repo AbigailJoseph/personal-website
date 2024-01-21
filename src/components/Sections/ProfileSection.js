@@ -3,6 +3,7 @@ import {Button} from '../Button';
 import './ProfileSection.css'
 import me from '../images/abigail.png'
 import { Link } from 'react-router-dom';
+import '../mediaqueries.css' 
 
 function ProfileSection() {
   return (

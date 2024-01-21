@@ -3,6 +3,7 @@ import pic1 from '../images/pic1.png'
 import pic2 from '../images/pic2.png'
 import pic3 from '../images/pic3.png'
 import './AboutSection.css'
+import '../mediaqueries.css' 
 
 
 function AboutSection() {
@@ -15,13 +16,13 @@ function AboutSection() {
         
     <div className="outer-container__inner-container">
         <div className="outer-container__pic-container">
-          <img src={pic1} className="about-pic" />
+          <img src={pic1} className="pic-container__about-pic" />
         </div>
-        <div className="pic-container">
+        <div className="outer-container__pic-container">
           <img src={pic2} className="pic-container__about-pic" />
         </div>
-        <div className="pic-container">
-          <img src={pic3} className="about-pic" />
+        <div className="outer-container__pic-container">
+          <img src={pic3} className="pic-container__about-pic" />
         </div>
     </div>
 

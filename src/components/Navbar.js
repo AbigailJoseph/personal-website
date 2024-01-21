@@ -22,7 +22,7 @@ function Navbar() {
   
   return (
     <>
-      <nav className='navbar'>
+      <nav id='#navbar' className='navbar'>
             <div className='navbar-container'>
                 <Link to = '/' className = 'navbar-title' onClick={closeMobileMenu}>Abigail Joseph</Link>
                 <div className='menu-icon' onClick={handleClick}>

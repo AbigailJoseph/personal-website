@@ -1,6 +1,7 @@
 import React from 'react'
 import './ContactSection.css'
 import {Link} from 'react-router-dom'
+import '../mediaqueries.css' 
 
 function ContactSection() {
   return (
