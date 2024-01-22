@@ -15,7 +15,7 @@ function ProjectsSection() {
             src={infostream}
             title='InfoStream'
             link1='https://github.com/AbigailJoseph/InfoStream-v2'
-            link2='https://github.com/AbigailJoseph/InfoStream-v2'
+            link2='https://youtu.be/BGvSkE0tjrQ'
             btnLabel1='GitHub'
             btnLabel2='Demo'
             info='News agrregator website built with React and Firebase'
